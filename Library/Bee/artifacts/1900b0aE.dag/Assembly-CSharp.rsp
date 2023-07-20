@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/EnemyShoot.cs"
 "Assets/Scripts/SelectionByEyes.cs"
 "Assets/Scripts/Shooting.cs"
 -langversion:9.0
