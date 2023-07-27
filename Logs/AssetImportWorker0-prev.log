@@ -15,7 +15,7 @@ D:/Unity gitrepo/Unity-Team-Mad-Programmers
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57324
+62457
 Successfully changed project path to: D:/Unity gitrepo/Unity-Team-Mad-Programmers
 D:/Unity gitrepo/Unity-Team-Mad-Programmers
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Unity gitrepo/Unity-Team-Mad-Programmers
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1112] Host "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 3901529439 [EditorId] 3901529439 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TP8RM9R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13720] Host "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 2188057327 [EditorId] 2188057327 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TP8RM9R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1112] Host "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 3901529439 [EditorId] 3901529439 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TP8RM9R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13720] Host "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 2188057327 [EditorId] 2188057327 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TP8RM9R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 9.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path E:/Unity versions/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'E:/Unity versions/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity versions/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity versions/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity versions/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004897 seconds.
-- Loaded All Assemblies, in  0.334 seconds
+Registered in 0.004626 seconds.
+- Loaded All Assemblies, in  0.329 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.276 seconds
-Domain Reload Profiling: 610ms
+- Finished resetting the current domain, in  0.286 seconds
+Domain Reload Profiling: 615ms
 	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (143ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
 		LoadAssemblies (88ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (123ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (277ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (286ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (216ms)
+		SetupLoadedEditorAssemblies (223ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (149ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,52 +116,129 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity gitrepo\Unity-Team-Mad-Programmers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity gitrepo\Unity-Team-Mad-Programmers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.701 seconds
-Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.700 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.474 seconds
-Domain Reload Profiling: 1175ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 1184ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (34ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (483ms)
-		LoadAssemblies (263ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (486ms)
+		LoadAssemblies (237ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (288ms)
-			TypeCache.Refresh (271ms)
-				TypeCache.ScanAssembly (259ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (279ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (475ms)
+	FinalizeReload (485ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (328ms)
+		SetupLoadedEditorAssemblies (332ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadAttributes (244ms)
 			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3529.
-Memory consumption went from 115.3 MB to 115.2 MB.
-Total: 3.765200 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.081100 ms MarkObjects: 3.291400 ms  DeleteObjects: 0.116000 ms)
+Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3529.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 4.149200 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.081900 ms MarkObjects: 3.474400 ms  DeleteObjects: 0.277200 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 447809.656519 seconds.
+  path: Assets/Books/Prefabs/Standard/Inkwell1.prefab
+  artifactKey: Guid(06fd64878b841764ead384b2518af495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard/Inkwell1.prefab using Guid(06fd64878b841764ead384b2518af495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816f67c58e66e1aac4a694abb37fd2c0') in 0.157884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Books/Prefabs/Standard/PaperDiagnosis.prefab
+  artifactKey: Guid(75b4e9ce88ebf7c49b63dbb9fc32d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard/PaperDiagnosis.prefab using Guid(75b4e9ce88ebf7c49b63dbb9fc32d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbd44ef1c349a5b34d24200301c72c8') in 0.020620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 154
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Books/Prefabs/Standard/PaperDiagnosis (1).prefab
+  artifactKey: Guid(ac563d6867b382647ba89ec4593a8e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard/PaperDiagnosis (1).prefab using Guid(ac563d6867b382647ba89ec4593a8e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3bacc75162f7ef42af8d9131a142b0') in 0.017542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 154
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Books/Prefabs/Standard/Inkwell2.prefab
+  artifactKey: Guid(866c46af1d183dc4499d8c996de328b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard/Inkwell2.prefab using Guid(866c46af1d183dc4499d8c996de328b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f078e62bc844b43b0d669d0e0fd26b5b') in 0.020222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Books/Prefabs/Standard/Pen1.prefab
+  artifactKey: Guid(e441722b74e87474e97f018b69f08bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard/Pen1.prefab using Guid(e441722b74e87474e97f018b69f08bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90285ff4585701b500230e9da0004d8') in 0.019052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Books/Prefabs/Standard/Pen2.prefab
+  artifactKey: Guid(84521e996411c594e931098a6e6abaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard/Pen2.prefab using Guid(84521e996411c594e931098a6e6abaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f0c88dd36a2eed4ea13245ecffbc51') in 0.016291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Books/Prefabs/Standard/Candle.prefab
+  artifactKey: Guid(24a5815a7a57ec0409eca04c5f844ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard/Candle.prefab using Guid(24a5815a7a57ec0409eca04c5f844ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f079a8a29c3f6e0db4e3416a42410cf0') in 0.016135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3539.
+Memory consumption went from 71.5 MB to 71.5 MB.
+Total: 3.080200 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.652500 ms  DeleteObjects: 0.017400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,1273 +253,509 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 678792.686834 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.002804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.386624 seconds.
-  path: Assets/Unity Asset Store
-  artifactKey: Guid(cc3d8cdc449b0eb40ad12dca0b3f6702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store using Guid(cc3d8cdc449b0eb40ad12dca0b3f6702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b7cfbc6db7f59797295d13363aca44') in 0.000716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 62.211020 seconds.
-  path: Assets/Unity Asset Store/Books
-  artifactKey: Guid(8f67ad033f25be44da57d9f8ea3544f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/Books using Guid(8f67ad033f25be44da57d9f8ea3544f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26d50bc3e2ae1fcb8c3e2c8d5182c80') in 0.000438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.395534 seconds.
-  path: Assets/Unity Asset Store/Books/example_scene.unity
-  artifactKey: Guid(2ef777e8c3f1b914cac5af5fd66257e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/Books/example_scene.unity using Guid(2ef777e8c3f1b914cac5af5fd66257e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e02a98f3e9af7d0859d68ecd052f6a') in 0.000522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 169.791728 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0824f694f90d142bba4e94dcdac08058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0824f694f90d142bba4e94dcdac08058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12275389e6828320bdc80bf076e6b3c9') in 0.000448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.449489 seconds.
+  Time since last request: 398.801783 seconds.
   path: Assets/Books
-  artifactKey: Guid(c7fd2909c2b580541966f4b4094a224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books using Guid(c7fd2909c2b580541966f4b4094a224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e09821ed6759d3b548cb7bd37d239') in 0.000413 seconds
+  artifactKey: Guid(47ef5283156b20c4f92c433eec831fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books using Guid(47ef5283156b20c4f92c433eec831fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6044d6388d7ab68215865dfc2c839b') in 0.001249 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.779681 seconds.
-  path: Assets/Books/Models
-  artifactKey: Guid(79297257fd3df0549a0e0e950505e6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Models using Guid(79297257fd3df0549a0e0e950505e6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8372ec4ffcb0ac2d4a709d42dc9d19ef') in 0.000393 seconds
+  Time since last request: 73.542806 seconds.
+  path: Assets/Books/Textures/URP/Books2_AlbedoTransparency.tif
+  artifactKey: Guid(3f8ad36c94126c548ae1399ab5a25c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Books2_AlbedoTransparency.tif using Guid(3f8ad36c94126c548ae1399ab5a25c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f9a8f9fb936852acf1fd0ba799c0ad') in 0.029716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Books/Textures/URP/Inkwell1_AlbedoTransparency.tif
+  artifactKey: Guid(663db128d9bb665428b05039e823e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Inkwell1_AlbedoTransparency.tif using Guid(663db128d9bb665428b05039e823e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd6ff5e9f4c89b353823351ec27cedd') in 0.016634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Books/Textures/URP/Inkwell2_MetallicSmoothness.tif
+  artifactKey: Guid(23827bda2cca21e4e81c0d0db21ba189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Inkwell2_MetallicSmoothness.tif using Guid(23827bda2cca21e4e81c0d0db21ba189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac86356b0cf0c9a80f31c9de684f92c') in 0.020118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Books/Textures/URP/BooksOpen_Covers_Normal.tif
+  artifactKey: Guid(b042ac1e7b9e9714d975c1f258c1f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/BooksOpen_Covers_Normal.tif using Guid(b042ac1e7b9e9714d975c1f258c1f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b4400caa85ff68616df7906a15d70f') in 0.036255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Books/Textures/URP/Inkwell1_Normal.tif
+  artifactKey: Guid(1b3b2df994adcc043914474ab991c509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Inkwell1_Normal.tif using Guid(1b3b2df994adcc043914474ab991c509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38a35ff3de0047a4f524fd3a4781933') in 0.020141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Books/Textures/URP/Inkwell2_AlbedoTransparency.tif
+  artifactKey: Guid(e1838ee750d7aab4f8e125e277853ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Inkwell2_AlbedoTransparency.tif using Guid(e1838ee750d7aab4f8e125e277853ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec95dd8b45fe32658c0afacec4c024e4') in 0.014567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Books/Textures/URP/Candles_AlbedoTransparency.tif
+  artifactKey: Guid(ecff1d8dae2917944ab5b646f8b7f236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Candles_AlbedoTransparency.tif using Guid(ecff1d8dae2917944ab5b646f8b7f236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24da5414d9b779c18ce22eb06d004b4c') in 0.017924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Books/Textures/URP/Books_AlbedoTransparency.tif
+  artifactKey: Guid(7c77ef4a6bd809f41b1d5e7d149f4754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Books_AlbedoTransparency.tif using Guid(7c77ef4a6bd809f41b1d5e7d149f4754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9342c43abd060fe4c0bfdc7d188b5163') in 0.019451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Books/Textures/URP/Books_Normal.tif
+  artifactKey: Guid(15a81e93fc1ca9d42a03fdb1b77f49bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Books_Normal.tif using Guid(15a81e93fc1ca9d42a03fdb1b77f49bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b106b4ca37748113b1c45fb21e751048') in 0.020092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Books/Textures/URP/Candles_MetallicSmoothness.tif
+  artifactKey: Guid(78b081a5b3217664296ec233a1afb4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Textures/URP/Candles_MetallicSmoothness.tif using Guid(78b081a5b3217664296ec233a1afb4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0183dbcbbc9792ee282b35875e634e') in 0.009101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 159.208471 seconds.
+  path: Assets/EffectTexturesAndPrefabs
+  artifactKey: Guid(880540d511c83dc4190791c2a6720474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs using Guid(880540d511c83dc4190791c2a6720474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108e2c5776a2decd28d6d60a4d6ce02e') in 0.000544 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.061360 seconds.
-  path: Assets/Books/Models/BooksAll.fbx
-  artifactKey: Guid(3a3113843c2d00240862fe10887715f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Models/BooksAll.fbx using Guid(3a3113843c2d00240862fe10887715f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0642242fb5e20bacd1e88eb279864a69') in 0.780916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 232
-========================================================================
-Received Import Request.
-  Time since last request: 0.338313 seconds.
-  path: Assets/Books/Prefabs
-  artifactKey: Guid(32d81c8cbe3f6a84790800f8ecf1f8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs using Guid(32d81c8cbe3f6a84790800f8ecf1f8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea9fb35783668590090b3db32e2eff3') in 0.000646 seconds
+  Time since last request: 6.737917 seconds.
+  path: Assets/EffectTexturesAndPrefabs/FBX
+  artifactKey: Guid(cd2a7be4349e6d94285d5d46f8469246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/FBX using Guid(cd2a7be4349e6d94285d5d46f8469246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1112ad79dbec6dfc08736e6a9f335120') in 0.000453 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.313041 seconds.
-  path: Assets/Books/Prefabs/HDRP
-  artifactKey: Guid(d7a9250f018c5c84b810c2ad71c0d118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP using Guid(d7a9250f018c5c84b810c2ad71c0d118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8896713e402b580f27bb7d90112f41') in 0.000414 seconds
+  Time since last request: 0.461161 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials
+  artifactKey: Guid(600de7d0e8db2cf4dac90c6cf68f9ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials using Guid(600de7d0e8db2cf4dac90c6cf68f9ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e5b772bc595e7c08392cab4c2d0068') in 0.000432 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.053169 seconds.
-  path: Assets/Books/Prefabs/HDRP/Candle.prefab
-  artifactKey: Guid(bcd08adf74e426c419d0dc609f4f2bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Candle.prefab using Guid(bcd08adf74e426c419d0dc609f4f2bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813ddcb951cb14f2b35dc6786b47163f') in 0.021555 seconds
+  Time since last request: 0.707973 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Animations
+  artifactKey: Guid(27d837b9f58640c48a20a83fc0f964ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Animations using Guid(27d837b9f58640c48a20a83fc0f964ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc401d09d6a63cfc153bab07615051f') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.720501 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs
+  artifactKey: Guid(a3a504e408ca2f24697af91ece75274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs using Guid(a3a504e408ca2f24697af91ece75274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8eb97ad0f913f51149da5a3482a03b7') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.094128 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/BlueGuy.fbx
+  artifactKey: Guid(fb2b06b61d6822d449ad6dff7007557d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/BlueGuy.fbx using Guid(fb2b06b61d6822d449ad6dff7007557d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990a644a8c03ae0d9bff334cfa673762') in 0.052373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/Heart.prefab
+  artifactKey: Guid(f87e7926fd589094b8a269e14b8bea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Heart.prefab using Guid(f87e7926fd589094b8a269e14b8bea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b2e0ae9f800f9c00be994d1aad6bf') in 0.123519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/smoke_thick.prefab
+  artifactKey: Guid(d26aaf76e6e2409448242b9a2d66f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/smoke_thick.prefab using Guid(d26aaf76e6e2409448242b9a2d66f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7969ffe7c4c1a706635d997eb1ad9a31') in 4.726180 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Books/Prefabs/HDRP/Pen1.prefab
-  artifactKey: Guid(14d3714c91ebed14684b17ffb9389b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Pen1.prefab using Guid(14d3714c91ebed14684b17ffb9389b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562b9416b44dd532312fac30f7d991c0') in 0.017126 seconds
+  Time since last request: 0.000264 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/ShockWave.mat
+  artifactKey: Guid(5f99d3e552fc62a46adcae1142016e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/ShockWave.mat using Guid(5f99d3e552fc62a46adcae1142016e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00436daa1421055143dd3677f5b50c08') in 0.039653 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Books/Prefabs/HDRP/Pen2.prefab
-  artifactKey: Guid(9d825a7d5dd9d1b4599897c10028ed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Pen2.prefab using Guid(9d825a7d5dd9d1b4599897c10028ed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01740806886211883de960602cdc5b9') in 0.019189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Books/Prefabs/HDRP/Tube1.prefab
-  artifactKey: Guid(342e8e2a34744c7429eadb1c9fbd6730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Tube1.prefab using Guid(342e8e2a34744c7429eadb1c9fbd6730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0b7ec0cf8bad5235b74703c7c2e623') in 0.030253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Prefabs/HDRP/Table.prefab
-  artifactKey: Guid(62d167a610c798947b973a3a91a72b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Table.prefab using Guid(62d167a610c798947b973a3a91a72b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e81e21786a2d3f84a86c38e2b65411a') in 0.023371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Books/Prefabs/HDRP/Inkwell2.prefab
-  artifactKey: Guid(725b7e819096b9e44b798f8892c2a1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Inkwell2.prefab using Guid(725b7e819096b9e44b798f8892c2a1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0b2cd145771fbfa47570f6e2845e26') in 0.021832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Books/Prefabs/HDRP/Inkwell1.prefab
-  artifactKey: Guid(756d26107be046842892f84742fd35f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Inkwell1.prefab using Guid(756d26107be046842892f84742fd35f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c39886aeef8c574951ce30ac988d0b6') in 0.020905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.940463 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books
-  artifactKey: Guid(725526a6a04242e4c84ff08552b98120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books using Guid(725526a6a04242e4c84ff08552b98120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7686aa123dae4b797a78e1191b56ded5') in 0.000464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.057060 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/Book1.prefab
-  artifactKey: Guid(886fa2d5077df4d48b0be89dd5664834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/Book1.prefab using Guid(886fa2d5077df4d48b0be89dd5664834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29554c5b5ec38d8fd4780cb44f5174c7') in 0.019340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/BookS1.prefab
-  artifactKey: Guid(3a438618749f3c444b040f0040a94664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/BookS1.prefab using Guid(3a438618749f3c444b040f0040a94664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af73d161e4152a18ff2244261554371c') in 0.020275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/BookS4.prefab
-  artifactKey: Guid(4ff0fc4e2eb3cea4a8f6811889a6e171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/BookS4.prefab using Guid(4ff0fc4e2eb3cea4a8f6811889a6e171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c6b6174bc0f7172dfb9090d08a6765') in 0.020958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/Book8.prefab
-  artifactKey: Guid(7ad2028c36761ef4a92a6e5a85a25c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/Book8.prefab using Guid(7ad2028c36761ef4a92a6e5a85a25c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e349b11bca42f90c7333e7678ac95f5') in 0.021063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/BookS12.prefab
-  artifactKey: Guid(9d8d34011ae4b6a40859f158ca1c56fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/BookS12.prefab using Guid(9d8d34011ae4b6a40859f158ca1c56fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fb5c21857f1068340e0eebf72d08de') in 0.022765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/BookS8.prefab
-  artifactKey: Guid(5ca8bb72cbcd42546961bb01ea66adcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/BookS8.prefab using Guid(5ca8bb72cbcd42546961bb01ea66adcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd488b87aa803541033338956d44b193') in 0.021965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/BookS5.prefab
-  artifactKey: Guid(788a62cfc0848ac45a727cf2319f7b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/BookS5.prefab using Guid(788a62cfc0848ac45a727cf2319f7b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e657291f433bb6a78c91f1851e7c599') in 0.020504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/Book12.prefab
-  artifactKey: Guid(18f6ad7eb9f57f54fafc83b50541e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/Book12.prefab using Guid(18f6ad7eb9f57f54fafc83b50541e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ab186a4be238c74650143446894ba2') in 0.022965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/BookS11.prefab
-  artifactKey: Guid(880360953141f184bbafffc19768404d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/BookS11.prefab using Guid(880360953141f184bbafffc19768404d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a5308b10131891eaa4f1bddd1e3986') in 0.020830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/Book4.prefab
-  artifactKey: Guid(b17df9d338a51a54299177764bcffc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/Book4.prefab using Guid(b17df9d338a51a54299177764bcffc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f57edcd3f61c29ed5ca335d3946860b') in 0.020356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/Book7.prefab
-  artifactKey: Guid(d3ac9b2fee18af14da54fd2e2da399c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/Book7.prefab using Guid(d3ac9b2fee18af14da54fd2e2da399c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25b9e583a57b3ffff67f9d9ab3f9634') in 0.020067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Books/Prefabs/HDRP/Books/Book10.prefab
-  artifactKey: Guid(b88535147b4cfea43baf1183cea03cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/HDRP/Books/Book10.prefab using Guid(b88535147b4cfea43baf1183cea03cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8aba1e9be4c90dc53e00e974579cca') in 0.020864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 4.079613 seconds.
-  path: Assets/Books/Prefabs/Standard
-  artifactKey: Guid(fc4bee12d150d6144b39a1d711e4b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard using Guid(fc4bee12d150d6144b39a1d711e4b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1a666c5f94fc1af8f96b07e8a9b8db') in 0.000589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.884012 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1224b5de38302ed2a6f85b51187a73b1') in 0.429535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 608
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Books/Prefabs/Standard/Inkwell2.prefab
-  artifactKey: Guid(866c46af1d183dc4499d8c996de328b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Inkwell2.prefab using Guid(866c46af1d183dc4499d8c996de328b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9de3a09da15130a8ce10cfa190af4d0') in 0.028460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Books/Prefabs/Standard/Pen2.prefab
-  artifactKey: Guid(84521e996411c594e931098a6e6abaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Pen2.prefab using Guid(84521e996411c594e931098a6e6abaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c89e4a346d92167ff582b571126587') in 0.023896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 1.604188 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksOpen
-  artifactKey: Guid(a606f6a13774ee64fa5caaf3e1b425b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksOpen using Guid(a606f6a13774ee64fa5caaf3e1b425b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab8cda37591183cbab8177c1940bd16') in 0.000587 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.043488 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksOpen/BookOpen1.prefab
-  artifactKey: Guid(859bf596f5c1b8d49ba016dab6204ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksOpen/BookOpen1.prefab using Guid(859bf596f5c1b8d49ba016dab6204ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5741d7fa3830bda62151f0c62e07a0') in 0.044942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksOpen/BookOpen6.prefab
-  artifactKey: Guid(6d6e582290e341649853786607aeb3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksOpen/BookOpen6.prefab using Guid(6d6e582290e341649853786607aeb3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe946c3c540a1b48fa801397d061a1a4') in 0.040942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksOpen/BookOpen5.prefab
-  artifactKey: Guid(b1b274e688ccf4a498214739f457b72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksOpen/BookOpen5.prefab using Guid(b1b274e688ccf4a498214739f457b72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52376038c70b3e615c1128995316363') in 0.042977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 1.653828 seconds.
-  path: Assets/Books/Prefabs/Standard/Books
-  artifactKey: Guid(1acf7781d231e784aa48180baaa6ed27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books using Guid(1acf7781d231e784aa48180baaa6ed27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abff551676f145ec66c875979b94150') in 0.000929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.060405 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/Book1.prefab
-  artifactKey: Guid(a858f11d79630ec43899958a4b5e350f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/Book1.prefab using Guid(a858f11d79630ec43899958a4b5e350f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a49ff601de338f6b1eecc68b7717d0') in 0.031233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/BookS12.prefab
-  artifactKey: Guid(d5b7956922839c8428f56e430eac6a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/BookS12.prefab using Guid(d5b7956922839c8428f56e430eac6a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2d82ff739b11a2d5d30b089fd1b94a') in 0.029346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/BookS9.prefab
-  artifactKey: Guid(9842a20464cd38844a012d16e5a8b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/BookS9.prefab using Guid(9842a20464cd38844a012d16e5a8b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a336ee5d10f1f47de74b5651f7fbccb') in 0.030547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/BookS10.prefab
-  artifactKey: Guid(936c9216296613f49a32c79d1c50aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/BookS10.prefab using Guid(936c9216296613f49a32c79d1c50aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4451b81b9988eda4bca2da7794af9c2') in 0.038061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/Book11.prefab
-  artifactKey: Guid(bfd8e36fd2b631b418702317d8677e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/Book11.prefab using Guid(bfd8e36fd2b631b418702317d8677e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a45bf7de6238202554b139d7a6416e') in 0.031790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/Book8.prefab
-  artifactKey: Guid(35a275ac4cb13e24ba3567162486b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/Book8.prefab using Guid(35a275ac4cb13e24ba3567162486b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe5a43b2b7997721310000ec2692090') in 0.031263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/Book3.prefab
-  artifactKey: Guid(8d2b6d104d740f947a8bcdaf97fa8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/Book3.prefab using Guid(8d2b6d104d740f947a8bcdaf97fa8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2348eb70099798a6ecf10b4d74d98c6') in 0.032197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/BookS6.prefab
-  artifactKey: Guid(93bcc1c0b4afdec45918c23f628c2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/BookS6.prefab using Guid(93bcc1c0b4afdec45918c23f628c2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72632572b6a7283bd5bfe93072fe408e') in 0.031130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/Book12.prefab
-  artifactKey: Guid(cebb9dc22ae05604a95cc3bf73234a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/Book12.prefab using Guid(cebb9dc22ae05604a95cc3bf73234a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0f35b50fe4af2450ce483ee9198356') in 0.027194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/Book6.prefab
-  artifactKey: Guid(f4e6fd50ea9a2224ba81697f41ee539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/Book6.prefab using Guid(f4e6fd50ea9a2224ba81697f41ee539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3e75c041c96968ccfc5cad263d86f2') in 0.026153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/BookS7.prefab
-  artifactKey: Guid(dd29afb9749f5da4ab79eb822afc93f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/BookS7.prefab using Guid(dd29afb9749f5da4ab79eb822afc93f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3100e6703d0e02cdcb4437e874b9f702') in 0.028411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Books/Prefabs/Standard/Books/Book7.prefab
-  artifactKey: Guid(bd4c83b21c9488b45bbae854d3c6b61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/Books/Book7.prefab using Guid(bd4c83b21c9488b45bbae854d3c6b61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3dfa93a9e849f914ec92bbf84cd46f') in 0.027874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 5.082664 seconds.
-  path: Assets/Books/Scenes
-  artifactKey: Guid(a1a23697277700f45903e9f6846ffd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Scenes using Guid(a1a23697277700f45903e9f6846ffd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0073de7dc6d18f36c12ffcd6a94814') in 0.000526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.074979 seconds.
-  path: Assets/Books/Scenes/TestSceneHDRP.unity
-  artifactKey: Guid(3db1837cc97a95e4c98610966fac2b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Scenes/TestSceneHDRP.unity using Guid(3db1837cc97a95e4c98610966fac2b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77449327fb0ed1e1b3d6faf9388d1b43') in 0.000446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.212875 seconds.
-  path: Assets/Books/Scenes/TestSceneStandard.unity
-  artifactKey: Guid(5419e3a7985e5ef4e82b4b9c08681902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Scenes/TestSceneStandard.unity using Guid(5419e3a7985e5ef4e82b4b9c08681902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af427741903e439780b14a3b821c688d') in 0.000565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.229623 seconds.
-  path: Assets/Books/Scenes/TestSceneURP.unity
-  artifactKey: Guid(0f1b23da5424b3047af0b1b63ddaca23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Scenes/TestSceneURP.unity using Guid(0f1b23da5424b3047af0b1b63ddaca23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e2f1ff7a0dae215d0f471837021f97') in 0.000461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 183.738697 seconds.
-  path: Assets/Books 1
-  artifactKey: Guid(0e6cd50500650b742a40cae4a477a066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books 1 using Guid(0e6cd50500650b742a40cae4a477a066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1714c46455b751fc761f2bd947b1274') in 0.000527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.783652 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f59831343c0ffa1563c614994303d0') in 0.000503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.138825 seconds.
-  path: Assets/Books
-  artifactKey: Guid(0e6cd50500650b742a40cae4a477a066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books using Guid(0e6cd50500650b742a40cae4a477a066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d67641e4ea6d8bfa2efed1ddf06e990') in 0.001996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.551195 seconds.
-  path: Assets/Books/BookOpen4.prefab
-  artifactKey: Guid(c12e9b9505da032498a2ff9e8046bb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/BookOpen4.prefab using Guid(c12e9b9505da032498a2ff9e8046bb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c0621cfebfc152dd5a5ccf1021ea1c') in 0.002649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 48.505396 seconds.
-  path: Assets/Books
-  artifactKey: Guid(c48602634d3c05c40b2001c1f7378840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books using Guid(c48602634d3c05c40b2001c1f7378840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859ed5a8b1c16aa4524cdb443b87074d') in 0.000455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.428851 seconds.
-  path: Assets/Books/Materials
-  artifactKey: Guid(4184ea9866031774eb872e0a1a39257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Materials using Guid(4184ea9866031774eb872e0a1a39257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f91189563500e8af43dcc92315d449') in 0.000435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.109451 seconds.
-  path: Assets/Books/Textures
-  artifactKey: Guid(d3903891d4130664989a085eabcaa762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures using Guid(d3903891d4130664989a085eabcaa762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17faf016d873d0b6150ac494437d87ed') in 0.000446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.682725 seconds.
-  path: Assets/Books/Textures/HDRP
-  artifactKey: Guid(58b01e0941ac2b74b8a144a1992f0464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP using Guid(58b01e0941ac2b74b8a144a1992f0464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f77aea13cc193e6ce0eea373cdba636') in 0.000444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.042186 seconds.
-  path: Assets/Books/Textures/HDRP/Books2_BaseMap.tif
-  artifactKey: Guid(5e4a0ba3226dc2448ae700d7868f549b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Books2_BaseMap.tif using Guid(5e4a0ba3226dc2448ae700d7868f549b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb4ea1b348f01a556d55f07d63f18d4') in 0.027428 seconds
+  path: Assets/EffectTexturesAndPrefabs/Materials/SparkParticle.mat
+  artifactKey: Guid(188bbd7714ed53b4ab47e30ee1f8c00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/SparkParticle.mat using Guid(188bbd7714ed53b4ab47e30ee1f8c00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafe756ec481ec9eba75032e0ef597ca') in 0.249091 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Books/Textures/HDRP/ScrollsPaper_MaskMap.tif
-  artifactKey: Guid(42ae5e4677f468f42ac3c2d2f25daf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/ScrollsPaper_MaskMap.tif using Guid(42ae5e4677f468f42ac3c2d2f25daf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ab2e529c931d4f7193671410715cbd') in 0.010053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Books/Textures/HDRP/Inkwell2_Normal.tif
-  artifactKey: Guid(4476f2292442e604abaebdcb4af6afc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Inkwell2_Normal.tif using Guid(4476f2292442e604abaebdcb4af6afc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a930592bcf738f9d58e38410f1e57e2a') in 0.046405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Textures/HDRP/BooksOpen_Normal.tif
-  artifactKey: Guid(524a6e83fcf72b64caac6a95bcc96663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/BooksOpen_Normal.tif using Guid(524a6e83fcf72b64caac6a95bcc96663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0215a74211702af7fa58e3d496dc28') in 0.020511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Books/Textures/HDRP/Tube2_Normal.tif
-  artifactKey: Guid(a934f29f00d14684784b42f2f4fecc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Tube2_Normal.tif using Guid(a934f29f00d14684784b42f2f4fecc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9115f26aa268d8def1e81de62bfda1') in 0.020230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Books/Textures/HDRP/Table1_MaskMap.tif
-  artifactKey: Guid(0bdadcd9ec3c65e45ac7f4f3c78d6e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Table1_MaskMap.tif using Guid(0bdadcd9ec3c65e45ac7f4f3c78d6e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4882dc230c9505f0edeec1cff17f98d') in 0.021112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Textures/HDRP/Inkwell2_BaseMap.tif
-  artifactKey: Guid(748bbfcfff461f8418d6d342500fdb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Inkwell2_BaseMap.tif using Guid(748bbfcfff461f8418d6d342500fdb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b93fbd16169670aa0815a54182b5e9f') in 0.021907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Books/Textures/HDRP/Books_Normal.tif
-  artifactKey: Guid(3b0b693de03285f4fa66de54b9d111bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Books_Normal.tif using Guid(3b0b693de03285f4fa66de54b9d111bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a52436b3496c7731406a5b4df553839') in 0.020009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Books/Textures/HDRP/Candles_MaskMap.tif
-  artifactKey: Guid(dfd426d842bc74f438fa7dff17339e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Candles_MaskMap.tif using Guid(dfd426d842bc74f438fa7dff17339e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ce736f1801b3f0d7c02eaed29ac912') in 0.016765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Books/Textures/HDRP/BooksOpen_MaskMap.tif
-  artifactKey: Guid(f60472bac4fdd7443a50dae74bd04be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/BooksOpen_MaskMap.tif using Guid(f60472bac4fdd7443a50dae74bd04be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e6daee90ebfec8f3cf82976bbdcc25') in 0.012086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Books/Textures/HDRP/Inkwell2_MaskMap.tif
-  artifactKey: Guid(3f9512d308670c545b4de433085ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Inkwell2_MaskMap.tif using Guid(3f9512d308670c545b4de433085ca03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7809a9904116943c6b24dd5a00b9a7d7') in 0.017445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Books/Textures/HDRP/ScrollsPaper_BaseMap.tif
-  artifactKey: Guid(34d5bffd9fe3e884ab9871217d39c7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/ScrollsPaper_BaseMap.tif using Guid(34d5bffd9fe3e884ab9871217d39c7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1ed36484aad2347246d99b49722b30') in 0.019288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Books/Textures/HDRP/Candles_BaseMap.tif
-  artifactKey: Guid(ec7ef4c3936514f48a5445e5c5888bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Candles_BaseMap.tif using Guid(ec7ef4c3936514f48a5445e5c5888bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1f9635b03776f6f4352502b6d2077c') in 0.017575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Books/Textures/HDRP/Tube1_MaskMap.tif
-  artifactKey: Guid(0f56a0e15d9bf5048a26cbdfb18c7c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Tube1_MaskMap.tif using Guid(0f56a0e15d9bf5048a26cbdfb18c7c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826881f0b3d2e1aa3fa13cb3813963a2') in 0.026706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Books/Textures/HDRP/Inkwell1_MaskMap.tif
-  artifactKey: Guid(f3e327e4603cc7441a09103e001fd42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Inkwell1_MaskMap.tif using Guid(f3e327e4603cc7441a09103e001fd42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c394cc241795242aaed13e1cc200fb5c') in 0.019200 seconds
+  Time since last request: 0.000262 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/MuzzleFlash.mat
+  artifactKey: Guid(c87875f717377f74f84d94ac4def6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/MuzzleFlash.mat using Guid(c87875f717377f74f84d94ac4def6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42023f577e0a3e0328b145ca64dabc56') in 0.040597 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Books/Textures/HDRP/Tube1_BaseMap.tif
-  artifactKey: Guid(ff885fb9498fdeb40a9904aad16a7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Tube1_BaseMap.tif using Guid(ff885fb9498fdeb40a9904aad16a7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2a567bd15b61b0da7897d084b54690') in 0.019368 seconds
+  path: Assets/EffectTexturesAndPrefabs/Materials/Heart.mat
+  artifactKey: Guid(39fbad40cddaec94196b2768dba204a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Heart.mat using Guid(39fbad40cddaec94196b2768dba204a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c081921117cbf1c6e580472899ca3bb0') in 0.017645 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/LightRing.mat
+  artifactKey: Guid(0161c043b67ab5541a07dbabad9d69b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/LightRing.mat using Guid(0161c043b67ab5541a07dbabad9d69b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8614f052a866dd298bf627217c6aea6d') in 0.016352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/Blue.mat
+  artifactKey: Guid(056b8378eaa9abc4099799b460ca1f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Blue.mat using Guid(056b8378eaa9abc4099799b460ca1f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2103dc2e60200a7e2a7e7b444255aac4') in 0.017064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Books/Textures/HDRP/Tube1_Normal.tif
-  artifactKey: Guid(129ce06383925904899c96f9851d4449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/HDRP/Tube1_Normal.tif using Guid(129ce06383925904899c96f9851d4449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097f745e0a5e120a6e7e7c9fd12ef70f') in 0.018914 seconds
+  path: Assets/EffectTexturesAndPrefabs/Materials/Fire_A.mat
+  artifactKey: Guid(b465c451c01c117458142e3e46fe035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Fire_A.mat using Guid(b465c451c01c117458142e3e46fe035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ee4691ad6269c25ba63c07a3e6598b') in 0.039008 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.662329 seconds.
-  path: Assets/Books/Textures/URP
-  artifactKey: Guid(119ea9d4923e1824f89045dbc0bf4719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP using Guid(119ea9d4923e1824f89045dbc0bf4719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b168a99c9183f63456cc6481223517d') in 0.000540 seconds
+  Time since last request: 0.000201 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/Plane.prefab
+  artifactKey: Guid(d1fbff3227e65a143b2f53a6f47faaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Plane.prefab using Guid(d1fbff3227e65a143b2f53a6f47faaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c46e92db7c5b1e2425423b12a90361') in 0.018030 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.065835 seconds.
-  path: Assets/Books/Textures/URP/Books2_AlbedoTransparency.tif
-  artifactKey: Guid(3f8ad36c94126c548ae1399ab5a25c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Books2_AlbedoTransparency.tif using Guid(3f8ad36c94126c548ae1399ab5a25c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc903d204b19dcabbdbe2c9fde8ac19f') in 0.009163 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/MuzzleFlash.prefab
+  artifactKey: Guid(9bf79f2d846a57440a981c168c87c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/MuzzleFlash.prefab using Guid(9bf79f2d846a57440a981c168c87c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3380798f08598bca2c26f1a588834d') in 0.136287 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/Smoke_thick.mat
+  artifactKey: Guid(97de08415789a694eb7b2ac89fd4e9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Smoke_thick.mat using Guid(97de08415789a694eb7b2ac89fd4e9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8bcd6b921982af1fa75c52560efb1b') in 0.017879 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/Fire_A.prefab
+  artifactKey: Guid(8b47f39d91e61384889cff33839361dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Fire_A.prefab using Guid(8b47f39d91e61384889cff33839361dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853cad97d98950774362ba66cd114fca') in 4.348727 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/Fire_B.prefab
+  artifactKey: Guid(83f5e574addfb424ebd95bbb8ff8b080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Fire_B.prefab using Guid(83f5e574addfb424ebd95bbb8ff8b080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efac7f6b6f721c2e2183d4f4f1775e4f') in 0.018068 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/Star_A.mat
+  artifactKey: Guid(aac8c2d15db78104ba4efcddca91ba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Star_A.mat using Guid(aac8c2d15db78104ba4efcddca91ba0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155f10a8a28f869613e113c7f081118c') in 0.017614 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Books/Textures/URP/BooksOpen_MetallicSmoothness.tif
-  artifactKey: Guid(f14d868f062f8164799cc951a355d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/BooksOpen_MetallicSmoothness.tif using Guid(f14d868f062f8164799cc951a355d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a16cc05f4f059c04c9bc1e97fef686') in 0.017313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Books/Textures/URP/Table1_AlbedoTransparency.tif
-  artifactKey: Guid(2fe1de2252d3ec948bf83de361ca01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Table1_AlbedoTransparency.tif using Guid(2fe1de2252d3ec948bf83de361ca01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112949891cc5a37e6102acd13494cdba') in 0.018641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Books/Textures/URP/Inkwell2_MetallicSmoothness.tif
-  artifactKey: Guid(23827bda2cca21e4e81c0d0db21ba189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Inkwell2_MetallicSmoothness.tif using Guid(23827bda2cca21e4e81c0d0db21ba189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a0ba45ce35b5d3aedbf1150b87deb1') in 0.018604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Textures/URP/Tube1_Normal.tif
-  artifactKey: Guid(c337066a63847084fbc39a4d589105d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Tube1_Normal.tif using Guid(c337066a63847084fbc39a4d589105d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ec873f88a612d40634c465c2efb43e') in 0.021014 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/Slash.mat
+  artifactKey: Guid(7ab6922abe596f14bbeacc00ae8c81be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Slash.mat using Guid(7ab6922abe596f14bbeacc00ae8c81be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8225514a7344ba0c91f82f01a5c428') in 0.017285 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Books/Textures/URP/Inkwell2_Normal.tif
-  artifactKey: Guid(e7fd2965a9c11fc4b91e61c9465637c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Inkwell2_Normal.tif using Guid(e7fd2965a9c11fc4b91e61c9465637c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e39a771e0ce79f5afc930d17d082d69') in 0.009860 seconds
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/HitEffect_B.prefab
+  artifactKey: Guid(3fe0df07025a3e747855b1bb671fc04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/HitEffect_B.prefab using Guid(3fe0df07025a3e747855b1bb671fc04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171457a14f0b6614da49529804a00ba1') in 0.016306 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Books/Textures/URP/Table1_Normal.tif
-  artifactKey: Guid(d09f822cc2cf722458ec9bc32e1d6328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Table1_Normal.tif using Guid(d09f822cc2cf722458ec9bc32e1d6328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9be04e28d020015dc5e1e82526e3f7e') in 0.017939 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/Light.mat
+  artifactKey: Guid(05fa321eed70c8a4abaaa1eb517bb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Light.mat using Guid(05fa321eed70c8a4abaaa1eb517bb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8d9f96a04845d9a599796bf5d833c0') in 0.015479 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Books/Textures/URP/BooksOpen_AlbedoTransparency.tif
-  artifactKey: Guid(a0a5ff874eb8579459d2271d9c3a1a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/BooksOpen_AlbedoTransparency.tif using Guid(a0a5ff874eb8579459d2271d9c3a1a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e60dc89252d6f2e96237aeddf98e5a4') in 0.017876 seconds
+  path: Assets/EffectTexturesAndPrefabs/Materials/PlaneBlack.mat
+  artifactKey: Guid(d8a7d31f497e15a47859d4c852dcee03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/PlaneBlack.mat using Guid(d8a7d31f497e15a47859d4c852dcee03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c119c355fc3b1628292b321a1cb72cf5') in 0.015936 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.051039 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Textures/light.png
+  artifactKey: Guid(a6de0b4e38ace5e4281e0b18205d4615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Textures/light.png using Guid(a6de0b4e38ace5e4281e0b18205d4615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbc99604f79407ac65608ba4a18baa6') in 0.017244 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Books/Textures/URP/Tube1_AlbedoTransparency.tif
-  artifactKey: Guid(9eb19b7f820c4cf428d7b6b2d64c9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Tube1_AlbedoTransparency.tif using Guid(9eb19b7f820c4cf428d7b6b2d64c9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73897dc3644cd986ded75c28ee689acb') in 0.017288 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Textures/star_B.png
+  artifactKey: Guid(a692e8fb04fe88f48b87e461b9e8409d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Textures/star_B.png using Guid(a692e8fb04fe88f48b87e461b9e8409d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4eed938df8bef25d810c0534da18e5') in 0.012596 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Books/Textures/URP/Tube2_Normal.tif
-  artifactKey: Guid(e4090ae852a7e394698cacf156a0e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Tube2_Normal.tif using Guid(e4090ae852a7e394698cacf156a0e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7361502dc5d8f1ec122310821362717b') in 0.019973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Books/Textures/URP/Inkwell1_MetallicSmoothness.tif
-  artifactKey: Guid(1a1732cecd3dcf349b34b9cda0323911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Inkwell1_MetallicSmoothness.tif using Guid(1a1732cecd3dcf349b34b9cda0323911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4ae164d555c41d510dcf36524286ef') in 0.018043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Books/Textures/URP/Books_MetallicSmoothness.tif
-  artifactKey: Guid(8a71e2cda6baa054f885166c6c552b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Books_MetallicSmoothness.tif using Guid(8a71e2cda6baa054f885166c6c552b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ee6efa6600fcefd36f9ba5139d1f33') in 0.009353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Books/Textures/URP/Tube2_MetallicSmoothness.tif
-  artifactKey: Guid(da68b0a7e60f42b47890b9633021a210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Tube2_MetallicSmoothness.tif using Guid(da68b0a7e60f42b47890b9633021a210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a991e64b6cbc2de0ac47507c9a4e41de') in 0.022688 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Textures/particle_A.png
+  artifactKey: Guid(7a034c8d003ebef4d89457c73317547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Textures/particle_A.png using Guid(7a034c8d003ebef4d89457c73317547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc0f68f89dc38e8c3f8202fe5007665') in 0.013783 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Books/Textures/URP/Books_Normal.tif
-  artifactKey: Guid(15a81e93fc1ca9d42a03fdb1b77f49bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Books_Normal.tif using Guid(15a81e93fc1ca9d42a03fdb1b77f49bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b273d7cf358c312d02c980f71fbb4a9e') in 0.023165 seconds
+  path: Assets/EffectTexturesAndPrefabs/Textures/ShockWave.png
+  artifactKey: Guid(068fda816d1984c4d9d66984ad9d3a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Textures/ShockWave.png using Guid(068fda816d1984c4d9d66984ad9d3a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db34ec84f6ee4e6c750db9bc748a267d') in 0.017101 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Books/Textures/URP/ScrollsPaper_Normal.tif
-  artifactKey: Guid(82150862821beb34fa84246d6a641932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/ScrollsPaper_Normal.tif using Guid(82150862821beb34fa84246d6a641932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aad3fa393206aa712d897fdec4bf1ef') in 0.020604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Books/Textures/URP/Candles_Normal.tif
-  artifactKey: Guid(33dedbc346d8b254ea672550ebe5db8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Textures/URP/Candles_Normal.tif using Guid(33dedbc346d8b254ea672550ebe5db8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b445da17d12c60d4c71f609127196d17') in 0.022173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 24.997574 seconds.
-  path: Assets/BooksTest
-  artifactKey: Guid(622beb46a68673f499f2207986f580da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest using Guid(622beb46a68673f499f2207986f580da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9321886a25794b071c16b166d889a813') in 0.000693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.006452 seconds.
-  path: Assets/BooksTest/Materials/Standard
-  artifactKey: Guid(f780907af87a52e4fb1ff626990eb348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard using Guid(f780907af87a52e4fb1ff626990eb348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a970e7e5b4bcead35b08ed0bb522139c') in 0.000441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.046355 seconds.
-  path: Assets/BooksTest/Materials/Standard/Books.mat
-  artifactKey: Guid(41241f7ba0691d443937f0380ab19fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/Books.mat using Guid(41241f7ba0691d443937f0380ab19fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659d5d6b8e6fd9de648c2bd99640e8dd') in 0.017537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BooksTest/Materials/Standard/Table1.mat
-  artifactKey: Guid(a4da142e4518f7441b59f08186185b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/Table1.mat using Guid(a4da142e4518f7441b59f08186185b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b73029f61ce26a6fa90472167519aad') in 0.018018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/BooksTest/Materials/Standard/Floor.mat
-  artifactKey: Guid(a4190380515d1b94eb30655ee2a76e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/Floor.mat using Guid(a4190380515d1b94eb30655ee2a76e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb844cdb79553656f18463bc6a27afd') in 0.020656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BooksTest/Materials/Standard/Tube2.mat
-  artifactKey: Guid(9ead0865ffebf80448caaff38aebc4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/Tube2.mat using Guid(9ead0865ffebf80448caaff38aebc4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b392a05eabaee59baec059d93327961') in 0.021355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BooksTest/Materials/Standard/BooksOpen_Covers.mat
-  artifactKey: Guid(1279de35a3468fd43824c183d3b91555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/BooksOpen_Covers.mat using Guid(1279de35a3468fd43824c183d3b91555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6056cfd7ec733e27bc14537bc5a785b3') in 0.018807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BooksTest/Materials/Standard/Inkwell2.mat
-  artifactKey: Guid(f82661a34e011544ab071bef5ab96d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/Inkwell2.mat using Guid(f82661a34e011544ab071bef5ab96d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3501eb935c494c1e47a04dcefc5f4a') in 0.016788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/BooksTest/Materials/Standard/String.mat
-  artifactKey: Guid(9baa0aeb2bf8f0f4c864c7de888c5a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/String.mat using Guid(9baa0aeb2bf8f0f4c864c7de888c5a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b90c5ee938c9224a0c9912937b5d03c') in 0.017291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/BooksTest/Materials/Standard/BooksOpen.mat
-  artifactKey: Guid(cda0a79c3be5fd94390040db202eb78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/BooksOpen.mat using Guid(cda0a79c3be5fd94390040db202eb78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab73095fea0d00ea5cdf2ae286dc678c') in 0.019059 seconds
+  path: Assets/EffectTexturesAndPrefabs/Textures/slash.png
+  artifactKey: Guid(114545a4b70d362468dce7ca6f39e659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Textures/slash.png using Guid(114545a4b70d362468dce7ca6f39e659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ae21553a72fe9e4c8c095292e42040') in 0.017171 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BooksTest/Materials/Standard/ScrollPaper.mat
-  artifactKey: Guid(e177206175999ba4e8e7c4eae3f8a6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/ScrollPaper.mat using Guid(e177206175999ba4e8e7c4eae3f8a6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af8bfac5dd61ec8520d4e2ead927006') in 0.017455 seconds
+  Time since last request: 1.890887 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Textures/fire_A.png
+  artifactKey: Guid(e4627330551d3014bb2d466848a06dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Textures/fire_A.png using Guid(e4627330551d3014bb2d466848a06dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08ee5250d5c4572c5120f2809545f2d') in 0.015345 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BooksTest/Materials/Standard/Candles.mat
-  artifactKey: Guid(c52201c1b2b12784aa3e341d57b94c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/Candles.mat using Guid(c52201c1b2b12784aa3e341d57b94c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe4e8755a116956af6a60e5d0adc8df') in 0.023794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BooksTest/Materials/Standard/Inkwell1.mat
-  artifactKey: Guid(9f0ff7f6f316d0e41a33d540e2b124b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/Inkwell1.mat using Guid(9f0ff7f6f316d0e41a33d540e2b124b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8d9790fd18e50d02656cd22210dee9') in 0.018646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/BooksTest/Materials/Standard/Tube1.mat
-  artifactKey: Guid(f50429f20fee13a4882a9a81f362bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Materials/Standard/Tube1.mat using Guid(f50429f20fee13a4882a9a81f362bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228f6f2c5eab6caa4d697e1de1fade65') in 0.019128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.317151 seconds.
-  path: Assets/BooksTest/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cff90eedd0024885e51dee4032f59ec') in 0.010506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 219
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BooksTest/Standard/Inkwell2.prefab
-  artifactKey: Guid(866c46af1d183dc4499d8c996de328b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Standard/Inkwell2.prefab using Guid(866c46af1d183dc4499d8c996de328b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a929f34a1dadfd4e11eecb64f70958') in 0.002808 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/BooksTest/Standard/Pen2.prefab
-  artifactKey: Guid(84521e996411c594e931098a6e6abaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Standard/Pen2.prefab using Guid(84521e996411c594e931098a6e6abaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b54bc96a27493fa2a1017e6d0cca9d') in 0.002084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 1.414466 seconds.
-  path: Assets/BooksTest/Standard/BooksOpen/BookOpen1.prefab
-  artifactKey: Guid(859bf596f5c1b8d49ba016dab6204ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Standard/BooksOpen/BookOpen1.prefab using Guid(859bf596f5c1b8d49ba016dab6204ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d3cb13be92418c5c7cb663261e9cac') in 0.002214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BooksTest/Standard/BooksOpen/BookOpen3.prefab
-  artifactKey: Guid(0ad94d6e26cbb9b448d7c16f88b1dc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BooksTest/Standard/BooksOpen/BookOpen3.prefab using Guid(0ad94d6e26cbb9b448d7c16f88b1dc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad65e3ca45cc5f2b53e6a11e273c652') in 0.001843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 115.307752 seconds.
-  path: Assets/le books
-  artifactKey: Guid(47ef5283156b20c4f92c433eec831fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books using Guid(47ef5283156b20c4f92c433eec831fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea054b32dc1e3789bd2ae455919c9fe') in 0.000527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 28.543540 seconds.
-  path: Assets/le books/Prefabs/Standard/Scrolls
-  artifactKey: Guid(ea7fce8e19809a045b590462f64b2df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Scrolls using Guid(ea7fce8e19809a045b590462f64b2df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f63063b83021d7342fdaf1b537f639') in 0.000434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.057623 seconds.
-  path: Assets/le books/Prefabs/Standard/Scrolls/Scroll1.prefab
-  artifactKey: Guid(d2dbe065eaceef04a9f2cd3b7174be49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Scrolls/Scroll1.prefab using Guid(d2dbe065eaceef04a9f2cd3b7174be49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb13c1002c7ff1430a3cee69eb800b0') in 0.039307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/le books/Prefabs/Standard/Scrolls/Scroll3.prefab
-  artifactKey: Guid(d5add3e45046ddf40b497a54f1a2a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Scrolls/Scroll3.prefab using Guid(d5add3e45046ddf40b497a54f1a2a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6f5a1f7f3d3d1caf7c5b7595a668be') in 0.039860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 2.203261 seconds.
-  path: Assets/le books/Prefabs/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9381ebda1d0390f01c64360f789602') in 0.127071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 563
-========================================================================
-Received Import Request.
-  Time since last request: 16.112448 seconds.
-  path: Assets/le books/Prefabs/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5744d92a71a65d315397c48052ba49da') in 0.123619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 549
-========================================================================
-Received Import Request.
-  Time since last request: 0.835010 seconds.
-  path: Assets/le books/Prefabs/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f645b1adfb38dccf78f3357efea1a9') in 0.110342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 535
-========================================================================
-Received Import Request.
-  Time since last request: 0.968142 seconds.
-  path: Assets/le books/Prefabs/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8869e9533b7ec37c83229ba8615f89d2') in 0.085978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 521
-========================================================================
-Received Import Request.
-  Time since last request: 74.070771 seconds.
-  path: Assets/le books/Prefabs/URP
-  artifactKey: Guid(7792d1b03e8861341aebf445761dd9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/URP using Guid(7792d1b03e8861341aebf445761dd9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31295c67a1d58523467241161f114dc') in 0.001009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.406104 seconds.
-  path: Assets/le books/Materials/HDRP
-  artifactKey: Guid(be04c14d54400044d8dbddbb9f2df685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Materials/HDRP using Guid(be04c14d54400044d8dbddbb9f2df685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd4be4f62379fd94f5aba710e10fa0e') in 0.000444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.527551 seconds.
-  path: Assets/le books/Materials/URP
-  artifactKey: Guid(582c45e5b74755740b53f5f24603021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Materials/URP using Guid(582c45e5b74755740b53f5f24603021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690f190c3a3db45e0aad37a4544355c9') in 0.000617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 105.415485 seconds.
-  path: Assets/le books/Models/BooksAll.fbx
+  Time since last request: 24.585265 seconds.
+  path: Assets/Books/Models/BooksAll.fbx
   artifactKey: Guid(3a3113843c2d00240862fe10887715f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Models/BooksAll.fbx using Guid(3a3113843c2d00240862fe10887715f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2754dc4fe0554259c76f2f79667ad235') in 0.376306 seconds
+Start importing Assets/Books/Models/BooksAll.fbx using Guid(3a3113843c2d00240862fe10887715f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c6fb9f4be536a61c9db696c53e9fff') in 0.439650 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 231
 ========================================================================
 Received Import Request.
-  Time since last request: 200.074466 seconds.
-  path: Assets/le books/Prefabs/Standard/Scrolls/Scroll1.prefab
-  artifactKey: Guid(d2dbe065eaceef04a9f2cd3b7174be49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Scrolls/Scroll1.prefab using Guid(d2dbe065eaceef04a9f2cd3b7174be49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c285dfd1f62da3f7c1024fd99ae3f32') in 0.039139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/le books/Prefabs/Standard/Scrolls/Scroll4.prefab
-  artifactKey: Guid(764c9b3fd8aee814fa1629487743aa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Scrolls/Scroll4.prefab using Guid(764c9b3fd8aee814fa1629487743aa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933826fd1b6a59671caece347e3b78d9') in 0.034379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 2.807820 seconds.
-  path: Assets/le books/Prefabs/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e24577ba03d753d2b5eb8ec72b35be') in 0.135379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 563
-========================================================================
-Received Import Request.
-  Time since last request: 134.639867 seconds.
-  path: Assets/le books/Prefabs/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee903fa56636632faa7dcfe11debbfa') in 0.097553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 521
-========================================================================
-Received Import Request.
-  Time since last request: 43.884650 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/Book1.prefab
-  artifactKey: Guid(a858f11d79630ec43899958a4b5e350f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/Book1.prefab using Guid(a858f11d79630ec43899958a4b5e350f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a258654e66216aab6057406cb0dd5eac') in 0.029052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/BookS12.prefab
-  artifactKey: Guid(d5b7956922839c8428f56e430eac6a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/BookS12.prefab using Guid(d5b7956922839c8428f56e430eac6a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fd4b30f311850f7048c7a3a9141f1e') in 0.026277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/Book10.prefab
-  artifactKey: Guid(b144e072ef2a8764b999c5331aa65397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/Book10.prefab using Guid(b144e072ef2a8764b999c5331aa65397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d28736a68bf95a46a20bbc6e2ab89ae') in 0.027512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/BookS11.prefab
-  artifactKey: Guid(2872290a4f066f04e955f4af09b0bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/BookS11.prefab using Guid(2872290a4f066f04e955f4af09b0bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b92fa73e702df28deb41324a434baaf') in 0.030300 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/Book11.prefab
-  artifactKey: Guid(bfd8e36fd2b631b418702317d8677e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/Book11.prefab using Guid(bfd8e36fd2b631b418702317d8677e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7010cba8dfd53ef80c17adcb889bef') in 0.025539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/Book8.prefab
-  artifactKey: Guid(35a275ac4cb13e24ba3567162486b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/Book8.prefab using Guid(35a275ac4cb13e24ba3567162486b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14ad7c47e0081ea8cf01957d7fc574c') in 0.026110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/BookS8.prefab
-  artifactKey: Guid(40741cbf4c0e53f4f9570b675ee2301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/BookS8.prefab using Guid(40741cbf4c0e53f4f9570b675ee2301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fc48591b41a056c6648dc1b5762046') in 0.028307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/BookS6.prefab
-  artifactKey: Guid(93bcc1c0b4afdec45918c23f628c2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/BookS6.prefab using Guid(93bcc1c0b4afdec45918c23f628c2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd958d4b3359350592dea015067b3aac5') in 0.029977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/BookS5.prefab
-  artifactKey: Guid(4e6a9a2a617e2af4ba1c0b7454a2fdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/BookS5.prefab using Guid(4e6a9a2a617e2af4ba1c0b7454a2fdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a8ae7cced5a9034664586ed52886a0') in 0.026561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/Book6.prefab
-  artifactKey: Guid(f4e6fd50ea9a2224ba81697f41ee539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/Book6.prefab using Guid(f4e6fd50ea9a2224ba81697f41ee539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4e51decb32689d975d1f61f7d2b558') in 0.028400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/BookS2.prefab
-  artifactKey: Guid(f794cfce699534c459daf2d72ba1cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/BookS2.prefab using Guid(f794cfce699534c459daf2d72ba1cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8484e4f81e7e0abe9dd519eef0e33fd') in 0.029511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/le books/Prefabs/Standard/Books/Book7.prefab
-  artifactKey: Guid(bd4c83b21c9488b45bbae854d3c6b61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/Books/Book7.prefab using Guid(bd4c83b21c9488b45bbae854d3c6b61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8978ac7b89ed120bf7a6bc7d638a4453') in 0.031742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 268.417826 seconds.
-  path: Assets/le books/Materials/Standard/New Material.mat
-  artifactKey: Guid(3da21990e59eea442b01da52cb6dcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Materials/Standard/New Material.mat using Guid(3da21990e59eea442b01da52cb6dcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c206e13c0e3e3850e3fe6b168c6fb8') in 0.019701 seconds
+  Time since last request: 1.167312 seconds.
+  path: Assets/Books/Materials/Standard/Text.mat
+  artifactKey: Guid(ad92943e0375d7442aa278534a710dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Materials/Standard/Text.mat using Guid(ad92943e0375d7442aa278534a710dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e506b2d148ffb177f12aba6e70177ebf') in 0.015733 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 11.771863 seconds.
-  path: Assets/le books/Materials/Standard/Note.mat
-  artifactKey: Guid(ad0f4627a6ee27a498f2f8b40344eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Materials/Standard/Note.mat using Guid(ad0f4627a6ee27a498f2f8b40344eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a79ae0dbbbba9a50d5f2df40ad9e9a') in 0.024041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 583.422910 seconds.
-  path: Assets/le books/Prefabs/Standard/BooksAll.prefab
-  artifactKey: Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/BooksAll.prefab using Guid(e33a58f9b5b725c44a9536c0a6a64407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e6e601a730119d5c3ef5ddbc98f143') in 0.084926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 521
-========================================================================
-Received Import Request.
-  Time since last request: 4.711203 seconds.
-  path: Assets/le books/Prefabs/Standard/BooksOpen/BookOpen4.prefab
-  artifactKey: Guid(c12e9b9505da032498a2ff9e8046bb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/le books/Prefabs/Standard/BooksOpen/BookOpen4.prefab using Guid(c12e9b9505da032498a2ff9e8046bb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891201403dde1a866f1e336a1968ad40') in 0.030281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 196.564492 seconds.
-  path: Assets/Books
-  artifactKey: Guid(47ef5283156b20c4f92c433eec831fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books using Guid(47ef5283156b20c4f92c433eec831fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802294db50b446c24573e150d35f60f8') in 0.000598 seconds
+  Time since last request: 474.848746 seconds.
+  path: Assets/Books/Prefabs
+  artifactKey: Guid(32d81c8cbe3f6a84790800f8ecf1f8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs using Guid(32d81c8cbe3f6a84790800f8ecf1f8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6135263c0b76ad469979ccc2aba255d') in 0.000549 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 9.921854 seconds.
-  path: Assets/Books/Materials/Standard/Paper.mat
-  artifactKey: Guid(7a62f630253371047b62ee677aab09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Materials/Standard/Paper.mat using Guid(7a62f630253371047b62ee677aab09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248a52c1086a79227f95d2238ad5e1fa') in 0.016526 seconds
+  Time since last request: 0.901428 seconds.
+  path: Assets/Books/Prefabs/Standard
+  artifactKey: Guid(fc4bee12d150d6144b39a1d711e4b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard using Guid(fc4bee12d150d6144b39a1d711e4b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02196dbbbb8977f681f2a13788659623') in 0.000483 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 148.572922 seconds.
-  path: Assets/Books/Materials/Standard/Text.mat
-  artifactKey: Guid(ad92943e0375d7442aa278534a710dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Materials/Standard/Text.mat using Guid(ad92943e0375d7442aa278534a710dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c937814fdca657e76019755a6be2a1a') in 0.016389 seconds
+  Time since last request: 1.502432 seconds.
+  path: Assets/Books/Prefabs/Standard/EffectHint.prefab
+  artifactKey: Guid(d06d56f7c80ca1248a9197bae0f86ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Prefabs/Standard/EffectHint.prefab using Guid(d06d56f7c80ca1248a9197bae0f86ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e3d7ff65ca877547837f8fcf913d78') in 0.016039 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 2083.258735 seconds.
-  path: Assets/Books/Materials/Standard/Note.mat
-  artifactKey: Guid(ad0f4627a6ee27a498f2f8b40344eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Materials/Standard/Note.mat using Guid(ad0f4627a6ee27a498f2f8b40344eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bb6e0d64df1f0342fcda29fa389445') in 0.021980 seconds
+  Time since last request: 40.177939 seconds.
+  path: Assets/Books/Materials
+  artifactKey: Guid(4184ea9866031774eb872e0a1a39257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Materials using Guid(4184ea9866031774eb872e0a1a39257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0e70025ba1659a13faab171dbb65d9') in 0.000564 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Books/Materials/Standard/Text.mat
-  artifactKey: Guid(ad92943e0375d7442aa278534a710dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Materials/Standard/Text.mat using Guid(ad92943e0375d7442aa278534a710dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbffe33f3d0152a40bc92511b411a862') in 0.015695 seconds
+  Time since last request: 0.739827 seconds.
+  path: Assets/Books/Materials/Standard
+  artifactKey: Guid(f780907af87a52e4fb1ff626990eb348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Materials/Standard using Guid(f780907af87a52e4fb1ff626990eb348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131ca0552abf3ac16e0931cacc6f4b7c') in 0.000437 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 153.015239 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksOpen/BookOpenNote3.prefab
-  artifactKey: Guid(cc49f3e763d62474290b166bf7395e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksOpen/BookOpenNote3.prefab using Guid(cc49f3e763d62474290b166bf7395e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9459b503472aaeadb49189120aa78938') in 0.170506 seconds
+  Time since last request: 7.315488 seconds.
+  path: Assets/Books/Models
+  artifactKey: Guid(79297257fd3df0549a0e0e950505e6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Books/Models using Guid(79297257fd3df0549a0e0e950505e6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf97b2ec8bec7275e9016611c32a7d7') in 0.000443 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksOpen/BookOpenNote6.prefab
-  artifactKey: Guid(dd81adf0b9c558d419ba036e5246b521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksOpen/BookOpenNote6.prefab using Guid(dd81adf0b9c558d419ba036e5246b521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1db618fe18aae61afbe939208a22f1') in 0.040728 seconds
+  Time since last request: 630.175206 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/Light.mat
+  artifactKey: Guid(05fa321eed70c8a4abaaa1eb517bb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/Light.mat using Guid(05fa321eed70c8a4abaaa1eb517bb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c61092349632270deba58ebe2af328a') in 0.009092 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksOpen/BookOpenNote5.prefab
-  artifactKey: Guid(2d8a794875e1c0a47ab9b7b3272f6ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksOpen/BookOpenNote5.prefab using Guid(2d8a794875e1c0a47ab9b7b3272f6ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec8ac8ff7b1d226e84cc15e7cfd7caf') in 0.036626 seconds
+  Time since last request: 57.186715 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Prefabs/Explosion_A.prefab
+  artifactKey: Guid(779aa8c25fbd0e1488637639c9fff976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Prefabs/Explosion_A.prefab using Guid(779aa8c25fbd0e1488637639c9fff976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e4eec366868849bb8676b1b4d64f85') in 4.149097 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Books/Prefabs/Standard/BooksOpen/BookOpenNote4.prefab
-  artifactKey: Guid(824f8cb47d5b78e4c8e62e4ce0b7dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/BooksOpen/BookOpenNote4.prefab using Guid(824f8cb47d5b78e4c8e62e4ce0b7dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8402a21629141e86b138358d9eec7c') in 0.036868 seconds
+  Time since last request: 649.417551 seconds.
+  path: Assets/EffectTexturesAndPrefabs/FBX/ShockWave_mesh.fbx
+  artifactKey: Guid(611050965a7b66143b84e5b62ae17405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/FBX/ShockWave_mesh.fbx using Guid(611050965a7b66143b84e5b62ae17405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf6c826099472a11056b9c4033dc83c') in 0.035338 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 6.809734 seconds.
-  path: Assets/Books/Prefabs/Standard/PaperDiagnosis (1).prefab
-  artifactKey: Guid(ac563d6867b382647ba89ec4593a8e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/PaperDiagnosis (1).prefab using Guid(ac563d6867b382647ba89ec4593a8e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789f8f985adaf3f84f29bd0f18dd0f72') in 0.016507 seconds
+  Time since last request: 17.783746 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663dc5645a2ba7aa579996bd5a326650') in 0.000596 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 154
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004275 seconds.
-  path: Assets/Books/Prefabs/Standard/PaperDiagnosis.prefab
-  artifactKey: Guid(75b4e9ce88ebf7c49b63dbb9fc32d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Books/Prefabs/Standard/PaperDiagnosis.prefab using Guid(75b4e9ce88ebf7c49b63dbb9fc32d2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22c0e9a5ba835e5beb29df17abf2811') in 0.016540 seconds
+  Time since last request: 2.708160 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0271c6c16dccf8ba785e597ae574b89') in 0.000479 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 154
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.773720 seconds.
+  path: Assets/Scenes/GameDesignerAssets.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameDesignerAssets.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ba328d30809eba6e0bfc13c61f967f') in 0.000462 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
