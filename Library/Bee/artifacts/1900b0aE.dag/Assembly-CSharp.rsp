@@ -360,6 +360,7 @@
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/EnemyContoller.cs"
 "Assets/Scripts/EnemyShoot.cs"
+"Assets/Scripts/PrintableText.cs"
 "Assets/Scripts/SelectionByEyes.cs"
 "Assets/Scripts/Shooting.cs"
 -langversion:9.0

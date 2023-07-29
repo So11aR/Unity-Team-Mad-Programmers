@@ -5,6 +5,9 @@ using UnityEngine;
 public class SelectionByEyes : MonoBehaviour
 {
     [SerializeField] GameObject note;
+    [SerializeField] bool doorOpen;
+    [SerializeField] Animator close, open, openDoor, closeDoor;
+    [SerializeField] GameObject gun, realGun, diagnose;
   
     void Update()
     {
@@ -19,7 +22,39 @@ public class SelectionByEyes : MonoBehaviour
             {
                 Destroy(hit.transform.gameObject);
                 note.SetActive(false);
+                open.SetBool("open", true);
             }
         }
+        if (hit.transform.gameObject.CompareTag("Gun"))
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Destroy(gun);
+                realGun.SetActive(true);
+                close.SetBool("close", true);
+                open.SetBool("open", false);
+            }
+        }
+        if (hit.transform.gameObject.CompareTag("Paper"))
+        {
+            diagnose.SetActive(true);
+        }
+        if (hit.transform.gameObject.CompareTag("Door"))
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                openDoor.SetBool("Open", true);
+                closeDoor.SetBool("Close", false);
+                doorOpen = true;
+                if (doorOpen && Input.GetKeyDown(KeyCode.E))
+                {
+                    openDoor.SetBool("Open", false);
+                    closeDoor.SetBool("Close", true);
+                    doorOpen = false;
+                }
+            }
+            
+        }
+
     }
 }

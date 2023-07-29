@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\SelectionByEyes.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\EnemyShoot.cs" />
+    <Compile Include="Assets\Scripts\PrintableText.cs" />
     <Compile Include="Assets\Scripts\EnemyContoller.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\Shooting.cs" />

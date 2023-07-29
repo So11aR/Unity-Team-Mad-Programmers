@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Object
   - Note
+  - Gun
+  - Paper
+  - Door
   layers:
   - Default
   - TransparentFX
