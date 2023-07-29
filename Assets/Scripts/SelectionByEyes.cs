@@ -45,13 +45,6 @@ public class SelectionByEyes : MonoBehaviour
             {
                 openDoor.SetBool("Open", true);
                 closeDoor.SetBool("Close", false);
-                doorOpen = true;
-                if (doorOpen && Input.GetKeyDown(KeyCode.E))
-                {
-                    openDoor.SetBool("Open", false);
-                    closeDoor.SetBool("Close", true);
-                    doorOpen = false;
-                }
             }
             
         }
