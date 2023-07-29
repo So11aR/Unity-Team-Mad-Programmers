@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638260719781770540
-    m_Hash: 3968280128
+      ticks: 638262228232729666
+    m_Hash: 2253799937
   m_LockFileStatus:
     m_FilePath: C:/Users/user/Documents/GitHub/Unity-Team-Mad-Programmers/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638260719793302007
-    m_Hash: 3785320995
+      ticks: 638262228232759582
+    m_Hash: 1670595091
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
