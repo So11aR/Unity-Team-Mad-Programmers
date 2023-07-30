@@ -1156,8 +1156,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.042452812, b: 0.042452812, a: 1}
-  m_Intensity: 5
-  m_Range: 5.69
+  m_Intensity: 3.2
+  m_Range: 7.27
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1665,6 +1665,7 @@ GameObject:
   - component: {fileID: 301648561}
   - component: {fileID: 301648563}
   - component: {fileID: 301648562}
+  - component: {fileID: 301648564}
   m_Layer: 0
   m_Name: littleStairLight (Red) (1)
   m_TagString: Untagged
@@ -1739,6 +1740,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301648560}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &301648564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301648560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1252b1019aaac34a899a7164bad39d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _light: {fileID: 219515099}
+  timerLight: 0
+  timeOn: 0
+  can: 0
 --- !u!1001 &329070336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1824,6 +1841,7 @@ GameObject:
   - component: {fileID: 338782067}
   - component: {fileID: 338782069}
   - component: {fileID: 338782068}
+  - component: {fileID: 338782070}
   m_Layer: 0
   m_Name: littleStairLight (Red) (2)
   m_TagString: Untagged
@@ -1898,6 +1916,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338782066}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &338782070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338782066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1252b1019aaac34a899a7164bad39d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _light: {fileID: 743929715}
+  timerLight: 0
+  timeOn: 0
+  can: 0
 --- !u!1 &349861709
 GameObject:
   m_ObjectHideFlags: 0
@@ -3685,14 +3719,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743929715}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: 2.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 338782067}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
 --- !u!108 &743929717
 Light:
   m_ObjectHideFlags: 0
@@ -3705,8 +3739,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.042452812, b: 0.042452812, a: 1}
-  m_Intensity: 5
-  m_Range: 5.69
+  m_Intensity: 6.29
+  m_Range: 5.66
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -28407,6 +28441,7 @@ GameObject:
   - component: {fileID: 5619745366398765855}
   - component: {fileID: 5619745366398765853}
   - component: {fileID: 5619745366398765852}
+  - component: {fileID: 5619745366398765856}
   m_Layer: 0
   m_Name: littleStairLight (Red)
   m_TagString: Untagged
@@ -28431,6 +28466,22 @@ Transform:
   m_Father: {fileID: 1747625796}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5619745366398765856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5619745366398765854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1252b1019aaac34a899a7164bad39d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _light: {fileID: 5619745366792719836}
+  timerLight: 0
+  timeOn: 0
+  can: 0
 --- !u!33 &5619745366624880308
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -28549,8 +28600,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.042452812, b: 0.042452812, a: 1}
-  m_Intensity: 5
-  m_Range: 5.69
+  m_Intensity: 2.66
+  m_Range: 2.960321
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -28624,7 +28675,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5619745366792719836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 2.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
