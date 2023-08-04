@@ -11,6 +11,7 @@ public class EnemyShoot : MonoBehaviour
 
     private float currentReloadTime;
     private bool canShoot;
+
     private void Update()
     {
         currentReloadTime -= Time.deltaTime;
@@ -28,10 +29,11 @@ public class EnemyShoot : MonoBehaviour
         Physics.Raycast(ray, out hit);
         if(canShoot)
         {
-            if(hit.transform.gameObject.tag == "Player")
+            // if(hit.transform.gameObject.tag == "Player")
+            if(hit.transform.gameObject.CompareTag("Player"))
             {
-                GameObject bullet = Instantiate(bulletPrefab, gunPoint.position, bulletPrefab.transform.rotation);
-                bullet.GetComponent<Rigidbody>().AddForce(gunPoint.forward * bulletSpeed * Time.deltaTime, ForceMode.Impulse);
+                GameObject bullet = Instantiate(bulletPrefab, gunPoint.position, gunPoint.transform.rotation);
+                // bullet.GetComponent<Rigidbody>().AddForce(gunPoint.forward * bulletSpeed * Time.deltaTime, ForceMode.Impulse);
                 canShoot = false;
             }
         }

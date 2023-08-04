@@ -10,8 +10,11 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.velocity = transform.forward * power;
+        // rb.velocity = transform.forward * power;
         Destroy(gameObject, 5);
+
+        rb.AddForce(transform.forward * power * Time.deltaTime, ForceMode.Impulse);
+        
     }
     private void OnTriggerEnter(Collider collider)
     {
