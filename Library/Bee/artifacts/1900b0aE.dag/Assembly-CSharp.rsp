@@ -358,13 +358,19 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/LowPolyLight/Effect/Bloom.cs"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
+"Assets/Scripts/Billboard.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/EnemyContoller.cs"
+"Assets/Scripts/EnemyScript.cs"
 "Assets/Scripts/EnemyShoot.cs"
+"Assets/Scripts/Health.cs"
+"Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/LightFlesh.cs"
 "Assets/Scripts/PrintableText.cs"
+"Assets/Scripts/RayDamage.cs"
 "Assets/Scripts/SelectionByEyes.cs"
 "Assets/Scripts/Shooting.cs"
+"Assets/Scripts/UIMeneger.cs"
 -langversion:9.0
 
 /deterministic

@@ -9,6 +9,10 @@ TagManager:
   - Gun
   - Paper
   - Door
+  - Scalp
+  - Box
+  - CorrectBox
+  - Key
   layers:
   - Default
   - TransparentFX
