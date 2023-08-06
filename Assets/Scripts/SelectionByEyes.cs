@@ -5,10 +5,14 @@ using UnityEngine;
 public class SelectionByEyes : MonoBehaviour
 {
     [SerializeField] GameObject note;
-    [SerializeField] bool doorOpen;
+    [SerializeField] bool doorOpen, haveScalp;
     [SerializeField] Animator close, open, openDoor, closeDoor;
-    [SerializeField] GameObject gun, realGun, diagnose;
-  
+    [SerializeField] GameObject gun, realGun, diagnose, scalp, boxText;
+    public float speed = 2;
+    private void Start()
+    {
+        haveScalp = false;
+    }
     void Update()
     {
         RaycastHit hit;
@@ -48,6 +52,10 @@ public class SelectionByEyes : MonoBehaviour
             }
             
         }
-
+        if (hit.transform.gameObject.CompareTag("Key"))
+        {
+            Destroy(hit.transform.gameObject);
+            boxText.SetActive(true);    
+        }
     }
 }

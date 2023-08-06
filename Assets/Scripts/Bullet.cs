@@ -18,6 +18,10 @@ public class Bullet : MonoBehaviour
     }
     private void OnTriggerEnter(Collider collider)
     {
-        
+        var health = collider.GetComponent<Health>();
+        if (health != null )
+        {
+            health.GetDamage(damage);
+        }
     }
 }
